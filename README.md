@@ -16,3 +16,45 @@
 
 <hr>
 
+## Abstract
+>This study investigates the use of machine learning techniques to classify circulating tumor cells (CTCs) based on their movement patterns within a hyperuniform micropost microfluidic device. Utilizing cell-based modeling, a synthetic dataset was created to simulate the behavior of CTCs in blood flow. Three machine learning models were employed to analyze the trajectory data: a Convolutional Neural Network (CNN), a hybrid model combining CNNs and Long Short-Term Memory (LSTM) networks, and the eXtreme Gradient Boosting (XGBoost) algorithm. These models achieved an average classification accuracy of 80% in identifying distinct CTC phenotypes, demonstrating the potential of this method for early cancer detection.
+<hr>
+
+## Project Installation and Run
+
+<b>Create the virtual environment</b>
+```
+pip install virtualenv
+virtualenv venv 
+venv\Scripts\activate  
+```
+<b>Install Dependencies</b>
+```
+pip3 install -r requirements.txt
+```
+<b>Run CNN Code/Notebook</b>
+```
+python CNN_Model.py
+or,
+CNN_Model.ipynb
+```
+<b>Run Hybrid Model Code/Notebook</b>
+```
+python Hybrid_Model.py
+or,
+Hybrid_Model.ipynb
+```
+<b>Run XGBoost Model Code/Notebook</b>
+```
+python XGBoost_Model.py
+or,
+XGBoost_Model.ipynb
+```
+<b>Run Final and Merge Model</b>
+```
+Final_Models.ipynb
+```
+<hr>
+
+
+
